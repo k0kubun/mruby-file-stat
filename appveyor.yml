@@ -13,7 +13,7 @@ install:
   - gcc --version
   - gem install rake
   - cd ..
-  - git clone --depth 1 https://github.com/mruby/mruby.git
+  - git clone --depth 1 https://github.com/ksss/mruby.git
   - cd mruby
 build_script:
   - ruby minirake all test --trace --verbose
